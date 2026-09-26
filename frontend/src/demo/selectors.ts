@@ -1,0 +1,9 @@
+import { DemoState, Booking } from './schema';
+export const money=(paise:number)=>new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:paise%100?2:0}).format(paise/100);
+export const dateLabel=(value:string)=>new Date(value).toLocaleDateString('en-IN',{day:'numeric',month:'short',timeZone:'Asia/Kolkata'});
+export const timeLabel=(value:string)=>new Date(value).toLocaleTimeString('en-IN',{hour:'numeric',minute:'2-digit',timeZone:'Asia/Kolkata'});
+export const activeStatuses=['Accepted','On the way','Arrived','In progress'];
+export function conflicts(state:DemoState, booking:Booking){return state.entities.bookings.filter(b=>b.id!==booking.id&&b.workerId===booking.workerId&&activeStatuses.includes(b.status)&&new Date(b.start)<new Date(booking.end)&&new Date(b.end)>new Date(booking.start));}
+export function importConflicts(state:DemoState){return state.entities.bookings.filter(b=>activeStatuses.includes(b.status)&&conflicts(state,b).length).map(b=>b.id);}
+export function availableWorkers(state:DemoState,date='2026-07-14',trade?:string){return state.entities.workers.filter(w=>w.status==='Verified'&&w.available&&(!trade||w.trade===trade)&&w.availability.some(a=>a.available&&new Date(a.start)<=new Date(`${date}T10:00:00+05:30`)&&new Date(a.end)>=new Date(`${date}T12:00:00+05:30`))&&!state.entities.bookings.some(b=>b.workerId===w.id&&b.start.slice(0,10)===date&&activeStatuses.includes(b.status)));}
+export function ledgerDue(state:DemoState,bookingId:string){const p=state.entities.payments.find(p=>p.bookingId===bookingId)!;const s=state.entities.settlements.find(s=>s.bookingId===bookingId)!;const confirmed=['Digital confirmed','Cash confirmed'].includes(p.status);return {worker:confirmed&&p.holder==='Society'&&s.status!=='Payout recorded'?s.workerEarning:0,society:confirmed&&p.holder==='Worker'&&s.status!=='Cash remitted'?s.societyAllocation:0};}
