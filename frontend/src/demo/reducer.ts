@@ -1,6 +1,8 @@
 import { DemoState, Worker, Booking, PaymentRecord, Complaint, envelopeSchema } from './schema';
 import { conflicts, activeStatuses, importConflicts } from './selectors';
 export type Action =
+ | {type:'register-entity';collection:'workers'|'customers'|'institutions'|'societies';entity:Worker|DemoState['entities']['customers'][number]|DemoState['entities']['institutions'][number]|DemoState['entities']['societies'][number]}
+ | {type:'new-bulk';requirement:DemoState['entities']['bulkRequirements'][number]}
  | {type:'workers';workers:Worker[]}
  | {type:'worker';id:string;changes:Partial<Worker>;reason:string}
  | {type:'booking';id:string;status:Booking['status']}
@@ -23,7 +25,15 @@ export function reduceDemo(previous:DemoState,action:Action,actor:string,eventId
  const s:DemoState=JSON.parse(JSON.stringify(previous));const e=s.entities;
  const at=new Date(new Date(s.demoClock).getTime()+60000).toISOString();s.demoClock=at;
  let entityId='id' in action?action.id:'LL-DEMO-01';let detail='reason' in action?action.reason:'';
- if(action.type==='workers'){
+ if(action.type==='register-entity'){
+  const items=e[action.collection] as {id:string}[];
+  if(items.some(x=>x.id===action.entity.id))throw new Error('This fixture ID already exists.');
+  items.push({...action.entity,updatedAt:at} as unknown as {id:string});entityId=action.entity.id;detail='Synthetic account registered in the shared fixture set';
+ } else if(action.type==='new-bulk'){
+  const b=action.requirement;if(e.bulkRequirements.some(x=>x.id===b.id))throw new Error('Requirement already exists');
+  if(!e.institutions.some(x=>x.id===b.institutionId))throw new Error('Institution fixture is missing');
+  e.bulkRequirements.push({...b,updatedAt:at});entityId=b.id;detail='Institution submitted a new synthetic requirement';
+ } else if(action.type==='workers'){
   for(const w of action.workers){if(e.workers.some(x=>x.id===w.id||!!w.membershipRef&&x.membershipRef===w.membershipRef))throw new Error('Duplicate ID or membership reference');e.workers.push({...w,updatedAt:at,status:'Pending review',membership:false,identity:false,skillVerified:false,certificate:false});}detail=`${action.workers.length} pending profiles imported`;
  } else if(action.type==='worker'){
   const w=e.workers.find(w=>w.id===action.id);if(!w)throw new Error('Worker not found');Object.assign(w,action.changes,{updatedAt:at});

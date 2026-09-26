@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {ShieldCheck,ExternalLink,HeartHandshake,BookOpen,Wrench,ChevronRight,MessageSquare,Download} from 'lucide-react';
 import {toast} from 'sonner';
+import {useAuth} from '../auth/store';
 import {useDemo} from '../demo/store';
 import {Complaint} from '../demo/schema';
 import {PageHead,Btn,Badge,Modal,Field,Notice,Empty,SearchBox,useT} from '../components/Common';

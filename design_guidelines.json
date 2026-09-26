@@ -1,0 +1,135 @@
+{
+  "project_name": "LABOURLINK Unified Entry & Auth Blueprint",
+  "theme": {
+    "primary": "#0B6E4F",
+    "ink": "#23332D",
+    "background": "#F7F8F4",
+    "caution": "#B86508",
+    "error": "#B42318",
+    "border": "#E7EAE3",
+    "muted_text": "#778078",
+    "card_bg": "#FFFFFF"
+  },
+  "typography": {
+    "font_family": "Manrope, 'Noto Sans Gujarati', 'Noto Sans Devanagari', sans-serif",
+    "h1": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#23332D]",
+    "h2": "text-xl sm:text-2xl lg:text-3xl font-bold text-[#23332D]",
+    "h3": "text-lg sm:text-xl font-bold text-[#23332D]",
+    "body": "text-sm sm:text-base text-[#23332D] leading-relaxed",
+    "caption": "text-xs text-[#778078]"
+  },
+  "colors": {
+    "brand_green": "#0B6E4F",
+    "brand_green_hover": "#07573E",
+    "brand_ink": "#23332D",
+    "brand_cream": "#F7F8F4",
+    "brand_caution": "#B86508",
+    "brand_error": "#B42318",
+    "input_border": "#DCE2DC",
+    "input_focus": "#0B6E4F",
+    "card_border": "#E0E5DB"
+  },
+  "layout_and_grid": {
+    "landing_grid": "grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto py-8 px-4",
+    "auth_card_container": "max-w-md w-full mx-auto bg-white p-8 rounded-xl border border-[#E0E5DB] shadow-sm space-y-6",
+    "banner_style": "bg-[#23332D] text-[#F7F8F4] text-xs py-2 px-4 text-center font-medium sticky top-0 z-50 flex items-center justify-center gap-2",
+    "input_style": "w-full min-h-[48px] px-4 py-3 border border-[#DCE2DC] rounded-lg bg-white text-[#23332D] text-sm focus:border-[#0B6E4F] focus:ring-2 focus:ring-[#0B6E4F]/10 outline-none transition-all"
+  },
+  "entry_point_landing_specs": {
+    "header_title": "One cooperative ecosystem",
+    "header_subtitle": "Six distinct experiences · shared synthetic scenario in this local preview.",
+    "footer_note": "Separate sites require explicit export/import. Role switching here is a demonstration, not secure authorization.",
+    "banner_text": "Interactive prototype · synthetic data · no live transactions.",
+    "cards": [
+      {
+        "role": "Society",
+        "title": "Society",
+        "description": "Verify, allocate & reconcile",
+        "route": "/society/login",
+        "id_prefix": "SOC-A"
+      },
+      {
+        "role": "Household",
+        "title": "Household",
+        "description": "Find a trusted service",
+        "route": "/household/login",
+        "id_prefix": "CUS-"
+      },
+      {
+        "role": "Worker",
+        "title": "Worker",
+        "description": "Your work. Your choice.",
+        "route": "/worker/login",
+        "id_prefix": "WRK-"
+      },
+      {
+        "role": "Institution",
+        "title": "Institution",
+        "description": "Plan multi-worker services",
+        "route": "/institution/login",
+        "id_prefix": "INS-"
+      },
+      {
+        "role": "District",
+        "title": "District",
+        "description": "Coordinate with consent",
+        "route": "/district/login",
+        "id_prefix": "DIST-"
+      },
+      {
+        "role": "National",
+        "title": "National",
+        "description": "Authorized insights only",
+        "route": "/national/login",
+        "id_prefix": "NAT-"
+      }
+    ]
+  },
+  "auth_modules": {
+    "household": {
+      "demo_credentials": "CUS-10025 / demo123",
+      "registration_id_format": "CUS-##### (5 random digits)"
+    },
+    "institution": {
+      "demo_credentials": "INS-20015 / demo123",
+      "registration_id_format": "INS-##### (5 random digits)"
+    },
+    "worker": {
+      "demo_credentials": "WRK-001 (or Shram Card SHRM-DEMO-001) / demo123",
+      "registration_id_format": "WRK-##### (5 digits, separate from seeded WRK-001)"
+    },
+    "society": {
+      "demo_credentials": "SOC-A / demo123",
+      "registration_id_format": "SOC-A### style (e.g. SOC-A102)"
+    },
+    "district": {
+      "demo_credentials": "DIST-AHM-01 / demo123",
+      "public_registration": false
+    },
+    "national": {
+      "demo_credentials": "NAT-001 / demo123",
+      "public_registration": false
+    }
+  },
+  "session_and_routing": {
+    "storage_key": "ll_auth_v1",
+    "route_guards": "Protect panel dashboard routes. Unauthenticated users redirect to role-specific login screen.",
+    "logout_behavior": "Clears ll_auth_v1 session token and returns to panel's login screen without destroying underlying demo business fixtures."
+  },
+  "visual_enhancers": {
+    "focus_ring": "ring-2 ring-[#0B6E4F] ring-offset-2",
+    "card_hover": "hover:border-[#0B6E4F] hover:shadow-md transition-all duration-200",
+    "button_primary": "bg-[#0B6E4F] hover:bg-[#07573E] text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full flex items-center justify-center gap-2"
+  },
+  "GENERAL UI UX DESIGN GUIDELINES": {
+    "data_testid_rule": "All interactive buttons, links, form inputs, error notices, demo credential toggles, and headers MUST include data-testid attributes for E2E validation.",
+    "accessibility_rule": "Ensure clear visible focus rings on inputs, contrast ratios over 4.5:1, and keyboard navigable forms."
+  },
+  "instructions_to_main_agent": [
+    "Implement the landing page at root URL '/' displaying the persistent banner and 2-column ecosystem grid.",
+    "Do NOT alter or redesign existing dashboard routes and layouts; wrap existing routes with session guard higher-order components or Context providers.",
+    "Integrate namespaced local storage auth state ('ll_auth_v1') pre-seeded with judge demo accounts.",
+    "Ensure input fields are styled with large touch targets (min-h-[48px]) and inline validation feedback.",
+    "Attach data-testid attributes to all form controls, cards, error text, and logout triggers."
+  ]
+}
