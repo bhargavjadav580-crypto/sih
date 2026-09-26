@@ -14,7 +14,7 @@ export const bookingSchema = z.object({...base,workerId:id,societyId:id,customer
 export const paymentSchema = z.object({...base,bookingId:id,amount:money,status:z.enum(['Unpaid','Payment failed','Cash reported','Cash disputed','Cash confirmed','Digital confirmed','Refund under review','Refund recorded']),method:z.enum(['None','Cash','Digital']),holder:z.enum(['None','Worker','Society']),note:text});
 export const settlementSchema = z.object({...base,bookingId:id,workerEarning:money,societyAllocation:money,status:z.enum(['Not due','Due','Under review','Payout recorded','Cash remitted']),note:text});
 export const complaintSchema = z.object({...base,bookingId:id,title:text,reporter:text,status:z.enum(['Reported','Under review','Resolution agreed','Closed']),notes:z.array(text)});
-export const bulkSchema = z.object({...base,service:text,requested:z.number().int().positive(),start:text,days:z.number().int().min(1).max(90),hours:z.number().min(1).max(12),location:text,status:text,consent:z.boolean(),coordinated:z.boolean()});
+export const bulkSchema = z.object({...base,service:text,requested:z.number().int().positive().max(1000),start:text,days:z.number().int().min(1).max(90),hours:z.number().min(1).max(12),location:text,status:text,consent:z.boolean(),coordinated:z.boolean(),details:z.record(text).default({})});
 export const allocationSchema = z.object({...base,bulkId:id,societyId:id,proposed:z.number().int().nonnegative(),committed:z.number().int().nonnegative(),accepted:z.number().int().nonnegative(),attended:z.number().int().nonnegative(),status:text}).refine(a=>a.attended<=a.accepted&&a.accepted<=a.committed&&a.committed<=a.proposed,'Capacity counters are inconsistent');
 export const benefitSchema = z.object({...base,title:text,kind:z.enum(['Official information','Society information','Demo cooperative support']),source:text,checkedAt:text,caveat:text});
 export const auditSchema = z.object({id,at:z.string().datetime({offset:true}),actor:text,entityId:id,action:text,detail:text});
@@ -26,6 +26,8 @@ export const envelopeSchema = z.object({schemaVersion:z.literal(1),scenarioId:z.
   for(const [key,items] of Object.entries(s.entities)) { const ids=items.map(x=>x.id); if(new Set(ids).size!==ids.length)ctx.addIssue({code:'custom',message:`Duplicate entity IDs in ${key}`}); }
   if(new Set(s.events.map(e=>e.id)).size!==s.events.length)ctx.addIssue({code:'custom',message:'Duplicate event IDs in file'});
   for(const b of s.entities.bookings) {if(!s.entities.workers.some(w=>w.id===b.workerId)||!s.entities.quotes.some(q=>q.id===b.quoteId&&q.bookingId===b.id))ctx.addIssue({code:'custom',message:`Missing worker or quote for ${b.id}`});}
+  for(const b of s.entities.bookings){if(!s.entities.payments.some(p=>p.bookingId===b.id)||!s.entities.settlements.some(p=>p.bookingId===b.id))ctx.addIssue({code:'custom',message:`Missing payment or settlement for ${b.id}`});if(new Date(b.start)>=new Date(b.end))ctx.addIssue({code:'custom',message:`Invalid time range for ${b.id}`});}
+  for(const w of s.entities.workers){if(w.status==='Verified'&&!(w.membership&&w.identity&&w.skillVerified))ctx.addIssue({code:'custom',message:`Incomplete verification for ${w.id}`});}
 });
 export type Worker=z.infer<typeof workerSchema>;
 export type Society=z.infer<typeof societySchema>;

@@ -1,0 +1,1232 @@
+[
+  {
+    "slide": 1,
+    "x": 96,
+    "y": 99,
+    "w": 530,
+    "h": 39,
+    "text": "SMART INDIA HACKATHON 2026",
+    "fontSize": 29,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 254,
+    "w": 326,
+    "h": 13,
+    "text": "PROBLEM STATEMENT ID",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 269,
+    "w": 330,
+    "h": 33,
+    "text": "26089",
+    "fontSize": 15,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 301,
+    "w": 326,
+    "h": 13,
+    "text": "PROBLEM STATEMENT TITLE",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 316,
+    "w": 330,
+    "h": 33,
+    "text": "Cooperative Gig Services Platform for\nHousehold & Community Services",
+    "fontSize": 13.4,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 362,
+    "w": 326,
+    "h": 13,
+    "text": "THEME",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 377,
+    "w": 330,
+    "h": 33,
+    "text": "Agriculture, FoodTech & Rural Development",
+    "fontSize": 13.4,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 410,
+    "w": 326,
+    "h": 13,
+    "text": "PS CATEGORY",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 425,
+    "w": 330,
+    "h": 33,
+    "text": "Software",
+    "fontSize": 15,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 455,
+    "w": 326,
+    "h": 13,
+    "text": "TEAM ID",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 470,
+    "w": 330,
+    "h": 33,
+    "text": "[REGISTERED TEAM ID]",
+    "fontSize": 15,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 502,
+    "w": 326,
+    "h": 13,
+    "text": "TEAM NAME (REGISTERED ON PORTAL)",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 29,
+    "y": 517,
+    "w": 330,
+    "h": 33,
+    "text": "LABOURLINK [confirm portal spelling]",
+    "fontSize": 15,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 30,
+    "y": 556,
+    "w": 720,
+    "h": 17,
+    "text": "Connecting Communities with Verified Cooperative Workers.",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 1,
+    "x": 30,
+    "y": 579,
+    "w": 725,
+    "h": 14,
+    "text": "User-supplied 2026 branding · official approval and team details require confirmation.",
+    "fontSize": 9.2,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 28,
+    "y": 114,
+    "w": 68,
+    "h": 28,
+    "text": "LABOURLINK",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 286,
+    "y": 169,
+    "w": 220,
+    "h": 25,
+    "text": "LABOURLINK",
+    "fontSize": 18,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 29,
+    "y": 223,
+    "w": 745,
+    "h": 35,
+    "text": "Proposed Solution (Describe your Idea/Solution/Prototype)",
+    "fontSize": 18,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 29,
+    "y": 263,
+    "w": 440,
+    "h": 35,
+    "text": "Detailed explanation of the proposed solution",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 284,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 284,
+    "w": 407,
+    "h": 33,
+    "text": "Societies import, verify and manage their worker rosters.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 303,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 303,
+    "w": 407,
+    "h": 33,
+    "text": "Households book services; institutions request multiple workers.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 322,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 322,
+    "w": 407,
+    "h": 33,
+    "text": "Workers review terms, accept work and track earnings.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 29,
+    "y": 350,
+    "w": 430,
+    "h": 35,
+    "text": "How it addresses the problem",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 43,
+    "y": 370,
+    "w": 420,
+    "h": 39,
+    "text": "Society records → verified profiles → suitable matches\n→ completed services → transparent settlement",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 29,
+    "y": 409,
+    "w": 430,
+    "h": 35,
+    "text": "Innovation and uniqueness of the solution",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 429,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 429,
+    "w": 407,
+    "h": 33,
+    "text": "Society-controlled verification and approved policies.",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 446,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 446,
+    "w": 407,
+    "h": 33,
+    "text": "Separate payment, earning and settlement records.",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 31,
+    "y": 463,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 45,
+    "y": 463,
+    "w": 407,
+    "h": 33,
+    "text": "Capacity-aware coordination across participating societies.",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 532,
+    "y": 271,
+    "w": 174,
+    "h": 24,
+    "text": "Customer requirement",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 614,
+    "y": 296,
+    "w": 16,
+    "h": 16,
+    "text": "↓",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 532,
+    "y": 318,
+    "w": 174,
+    "h": 24,
+    "text": "Chosen / suitable society",
+    "fontSize": 11,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 471,
+    "y": 375,
+    "w": 115,
+    "h": 25,
+    "text": "Capacity available",
+    "fontSize": 10.6,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 635,
+    "y": 375,
+    "w": 123,
+    "h": 25,
+    "text": "Shortfall",
+    "fontSize": 10.6,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 471,
+    "y": 423,
+    "w": 115,
+    "h": 39,
+    "text": "Worker offers\n→ acceptance",
+    "fontSize": 10.8,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 635,
+    "y": 423,
+    "w": 123,
+    "h": 39,
+    "text": "Authorized federation\n→ other societies",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 2,
+    "x": 466,
+    "y": 471,
+    "w": 300,
+    "h": 21,
+    "text": "Affiliation + authority; no mandatory middleman.",
+    "fontSize": 9.2,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 28,
+    "y": 114,
+    "w": 68,
+    "h": 28,
+    "text": "LABOURLINK",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 181,
+    "w": 730,
+    "h": 18,
+    "text": "Six experiences: Household · Institution · Worker · Society · District · National",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 212,
+    "w": 354,
+    "h": 35,
+    "text": "Technologies to be used",
+    "fontSize": 14,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 232,
+    "w": 350,
+    "h": 20,
+    "text": "(programming languages, frameworks, hardware)",
+    "fontSize": 9.4,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 254,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 45,
+    "y": 254,
+    "w": 336,
+    "h": 33,
+    "text": "Frontend: React + TypeScript; EN / HI / GU.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 276,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 45,
+    "y": 276,
+    "w": 336,
+    "h": 33,
+    "text": "Planned backend: FastAPI.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 298,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 45,
+    "y": 298,
+    "w": 336,
+    "h": 33,
+    "text": "Planned database: MongoDB + geospatial indexing.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 320,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 45,
+    "y": 320,
+    "w": 336,
+    "h": 33,
+    "text": "Future authorized providers: payments, OTP, maps, voice, welfare.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 419,
+    "y": 212,
+    "w": 344,
+    "h": 35,
+    "text": "Methodology and process for implementation",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 419,
+    "y": 233,
+    "w": 344,
+    "h": 17,
+    "text": "(Flow Charts/Images/ working prototype)",
+    "fontSize": 9.4,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 419,
+    "y": 254,
+    "w": 344,
+    "h": 43,
+    "text": "Import → verify → match → book → accept\n→ complete → record payment → reconcile",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 419,
+    "y": 301,
+    "w": 344,
+    "h": 32,
+    "text": "Matching: skill + availability first; then distance, experience, rating and workload.",
+    "fontSize": 10.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 419,
+    "y": 335,
+    "w": 344,
+    "h": 32,
+    "text": "Forecast: history → demand baseline → capacity gap → admin review.",
+    "fontSize": 10.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 31,
+    "y": 372,
+    "w": 350,
+    "h": 15,
+    "text": "Worker verification · synthetic prototype",
+    "fontSize": 10.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 410,
+    "y": 372,
+    "w": 350,
+    "h": 15,
+    "text": "Separate settlement ledger · synthetic prototype",
+    "fontSize": 10.5,
+    "url": null
+  },
+  {
+    "slide": 3,
+    "x": 35,
+    "y": 468,
+    "w": 722,
+    "h": 22,
+    "text": "Prototype scope: synthetic data and simulated handoffs. No live payment, government-data connection, backend or production AI claim.",
+    "fontSize": 9.8,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 28,
+    "y": 114,
+    "w": 68,
+    "h": 28,
+    "text": "LABOURLINK",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 31,
+    "y": 211,
+    "w": 730,
+    "h": 35,
+    "text": "Analysis of the feasibility of the idea",
+    "fontSize": 14,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 31,
+    "y": 236,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 45,
+    "y": 236,
+    "w": 716,
+    "h": 33,
+    "text": "Start with participating societies’ own records—not assumed government worker-data access.",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 31,
+    "y": 258,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 45,
+    "y": 258,
+    "w": 716,
+    "h": 33,
+    "text": "Begin with one society and selected household/community services.",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 31,
+    "y": 280,
+    "w": 9,
+    "h": 20,
+    "text": "•",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 45,
+    "y": 280,
+    "w": 716,
+    "h": 33,
+    "text": "Agree cooperative operating charges; do not assume a universal commission.",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 31,
+    "y": 311,
+    "w": 335,
+    "h": 35,
+    "text": "Potential challenges and risks",
+    "fontSize": 12.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 389,
+    "y": 311,
+    "w": 372,
+    "h": 35,
+    "text": "Strategies for overcoming these challenges",
+    "fontSize": 12.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 41,
+    "y": 343,
+    "w": 330,
+    "h": 20,
+    "text": "Incomplete worker records",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 391,
+    "y": 343,
+    "w": 358,
+    "h": 20,
+    "text": "Validated imports, review queue, verification history",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 41,
+    "y": 369,
+    "w": 330,
+    "h": 20,
+    "text": "Language / digital-literacy barriers",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 391,
+    "y": 369,
+    "w": 358,
+    "h": 20,
+    "text": "Simple multilingual screens and assisted onboarding",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 41,
+    "y": 395,
+    "w": 330,
+    "h": 20,
+    "text": "Overbooking / bulk shortfalls",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 391,
+    "y": 395,
+    "w": 358,
+    "h": 20,
+    "text": "Time checks, reservations, partial-fulfilment review",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 41,
+    "y": 421,
+    "w": 330,
+    "h": 20,
+    "text": "Cash, no-shows, payment disputes",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 391,
+    "y": 421,
+    "w": 358,
+    "h": 20,
+    "text": "Separate ledgers, evidence trail, society review",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 32,
+    "y": 450,
+    "w": 730,
+    "h": 22,
+    "text": "PROPOSED PILOT — NOT ACHIEVED: 1 society · 100 workers · 300 requests · target ≥90% completion.",
+    "fontSize": 10.7,
+    "url": null
+  },
+  {
+    "slide": 4,
+    "x": 32,
+    "y": 473,
+    "w": 728,
+    "h": 22,
+    "text": "Production gate: governance, worker terms, pricing, legal obligations, data consent and provider access.",
+    "fontSize": 9.6,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 28,
+    "y": 114,
+    "w": 68,
+    "h": 28,
+    "text": "LABOURLINK",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 211,
+    "w": 730,
+    "h": 35,
+    "text": "Potential impact on the target audience",
+    "fontSize": 14,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 239,
+    "w": 347,
+    "h": 18,
+    "text": "Workers",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 258,
+    "w": 345,
+    "h": 33,
+    "text": "Clearer terms, visible earnings, skill records and welfare guidance.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 239,
+    "w": 347,
+    "h": 18,
+    "text": "Customers",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 258,
+    "w": 345,
+    "h": 33,
+    "text": "Discoverable cooperative workers, price visibility and traceable complaints.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 296,
+    "w": 347,
+    "h": 18,
+    "text": "Societies",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 315,
+    "w": 345,
+    "h": 33,
+    "text": "Organized rosters, allocation tools and settlement visibility.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 296,
+    "w": 347,
+    "h": 18,
+    "text": "Federations",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 315,
+    "w": 345,
+    "h": 33,
+    "text": "Authorized capacity and skill-gap summaries—not control over every job.",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 359,
+    "w": 730,
+    "h": 35,
+    "text": "Benefits of the solution (social, economic, environmental, etc.)",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 382,
+    "w": 350,
+    "h": 21,
+    "text": "Social: accessible, accountable participation.",
+    "fontSize": 11.8,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 405,
+    "w": 350,
+    "h": 23,
+    "text": "Economic: aim for less idle time and clearer payments.",
+    "fontSize": 11.8,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 382,
+    "w": 350,
+    "h": 23,
+    "text": "Environmental: test travel savings from nearby matching.",
+    "fontSize": 11.8,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 410,
+    "y": 405,
+    "w": 350,
+    "h": 23,
+    "text": "Governance: documented, approved cooperative decisions.",
+    "fontSize": 11.8,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 40,
+    "y": 439,
+    "w": 711,
+    "h": 27,
+    "text": "MEASURE: completion · utilization · assignment time · settlement delays\ncomplaint resolution · worker net earnings after reported costs",
+    "fontSize": 10.8,
+    "url": null
+  },
+  {
+    "slide": 5,
+    "x": 31,
+    "y": 475,
+    "w": 730,
+    "h": 20,
+    "text": "Digitize the workforce. Keep the cooperative in control.",
+    "fontSize": 13.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 28,
+    "y": 114,
+    "w": 68,
+    "h": 28,
+    "text": "LABOURLINK",
+    "fontSize": 9.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 31,
+    "y": 216,
+    "w": 730,
+    "h": 35,
+    "text": "Details / Links of the reference and research work",
+    "fontSize": 15,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 32,
+    "y": 252,
+    "w": 25,
+    "h": 22,
+    "text": "01",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 252,
+    "w": 687,
+    "h": 19,
+    "text": "SIH PS 26089 — organizer-provided statement",
+    "fontSize": 12,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 270,
+    "w": 687,
+    "h": 18,
+    "text": "Confirmed portal URL required; title and theme supplied by the team.",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 32,
+    "y": 289,
+    "w": 25,
+    "h": 22,
+    "text": "02",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 289,
+    "w": 687,
+    "h": 19,
+    "text": "Ministry of Cooperation — National Cooperative Database",
+    "fontSize": 12,
+    "url": "https://www.cooperation.gov.in/en/national-cooperative-database"
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 307,
+    "w": 687,
+    "h": 18,
+    "text": "Society information and ecosystem planning; not a worker roster API.",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 32,
+    "y": 326,
+    "w": 25,
+    "h": 22,
+    "text": "03",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 326,
+    "w": 687,
+    "h": 19,
+    "text": "Haryana Labourfed — About Us",
+    "fontSize": 12,
+    "url": "https://labourfed.haryana.gov.in/about-us"
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 344,
+    "w": 687,
+    "h": 18,
+    "text": "Documented society/district/state example—not a universal hierarchy.",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 32,
+    "y": 363,
+    "w": 25,
+    "h": 22,
+    "text": "04",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 363,
+    "w": 687,
+    "h": 19,
+    "text": "International Cooperative Alliance — Cooperative Identity",
+    "fontSize": 12,
+    "url": "https://ica.coop/en/cooperatives/cooperative-identity"
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 381,
+    "w": 687,
+    "h": 18,
+    "text": "Member ownership, democratic control and autonomy.",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 32,
+    "y": 400,
+    "w": 25,
+    "h": 22,
+    "text": "05",
+    "fontSize": 13,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 400,
+    "w": 687,
+    "h": 19,
+    "text": "e-Shram — Official FAQs",
+    "fontSize": 12,
+    "url": "https://eshram.gov.in/faqs"
+  },
+  {
+    "slide": 6,
+    "x": 67,
+    "y": 418,
+    "w": 687,
+    "h": 18,
+    "text": "Registration and welfare facilitation; scheme eligibility remains separate.",
+    "fontSize": 10,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 31,
+    "y": 447,
+    "w": 730,
+    "h": 19,
+    "text": "Prototype links — URLs pending; add verified links before submission",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 31,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "Household",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 155,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "Institution",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 279,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "Worker",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 403,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "Society",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 527,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "District",
+    "fontSize": 11.5,
+    "url": null
+  },
+  {
+    "slide": 6,
+    "x": 651,
+    "y": 473,
+    "w": 118,
+    "h": 18,
+    "text": "National",
+    "fontSize": 11.5,
+    "url": null
+  }
+]
